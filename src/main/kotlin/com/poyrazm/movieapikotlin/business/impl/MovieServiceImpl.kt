@@ -16,6 +16,13 @@ class MovieServiceImpl(
     private val movieMapper: MovieMapper
 ) : MovieService {
 
+    //TODO("Will be added the all Exception Classes")
+    //TODO("Will be added the Spring-Boot-Validation")
+    //TODO("Will be added the Docker and Kubernates integration")
+    //TODO("Will be added the RabbitMQ Queue Messagging")
+    //TODO("Will be added the Unit Test")
+
+
     override fun createMovie(req: MovieRequest): MovieDTO {
         val movieRequest = movieMapper.requestToEntity(req)
         movieRepository.save(movieRequest)
@@ -50,5 +57,6 @@ class MovieServiceImpl(
             movieRepository.delete(movie.get())
             return "Movie was deleted successfully"
         } else throw RuntimeException("Hata")
+
     }
 }
