@@ -18,7 +18,7 @@ class MovieServiceImpl(
 
     //TODO("Will be added the all Exception Classes")
     //TODO("Will be added the Spring-Boot-Validation")
-    //TODO("Will be added the Docker and Kubernates integration")
+    //TODO("Will be added the Docker and Kubernetes integration")
     //TODO("Will be added the RabbitMQ Queue Messagging")
     //TODO("Will be added the Unit Test")
 
